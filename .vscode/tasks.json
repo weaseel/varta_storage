@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": "2.0.0",
   "tasks": [
@@ -184,3 +185,16 @@
     }
   ]
 }
+=======
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Home Assistant on port 8123",
+            "type": "shell",
+            "command": "scripts/develop",
+            "problemMatcher": []
+        }
+    ]
+}
+>>>>>>> e2d2f1c71c (Initial commit)

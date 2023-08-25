@@ -1,8 +1,24 @@
+<<<<<<< HEAD
+=======
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+>>>>>>> e2d2f1c71c (Initial commit)
 version: 2
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+<<<<<<< HEAD
       interval: daily
       time: "06:00"
     open-pull-requests-limit: 10
+=======
+      interval: "weekly"
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      # Dependabot should not update Home Assistant as that should match the homeassistant key in hacs.json
+      - dependency-name: "homeassistant"
+>>>>>>> e2d2f1c71c (Initial commit)

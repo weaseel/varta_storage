@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /config
 config2/*
 
@@ -135,3 +136,22 @@ tmp_cache
 
 # python-language-server / Rope
 .ropeproject
+=======
+# artifacts
+__pycache__
+.pytest*
+*.egg-info
+*/build/*
+*/dist/*
+
+
+# misc
+.coverage
+.vscode
+coverage.xml
+
+
+# Home Assistant configuration
+config/*
+!config/configuration.yaml
+>>>>>>> e2d2f1c71c (Initial commit)
