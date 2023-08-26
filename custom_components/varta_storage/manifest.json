@@ -1,15 +1,12 @@
 {
   "domain": "varta_storage",
   "name": "VARTA Storage",
-  "version": "0.0.2",
+  "codeowners": ["@Vip0r"],
   "config_flow": true,
+  "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/varta_storage",
+  "iot_class": "local_polling",
   "issue_tracker": "https://github.com/Vip0r/vartastorage-hacs/issues",
   "requirements": ["vartastorage==0.2.5"],
-  "ssdp": [],
-  "zeroconf": [],
-  "homekit": {},
-  "dependencies": [],
-  "codeowners": ["@Vip0r"],
-  "iot_class": "local_polling"
+  "version": "0.0.2"
 }
