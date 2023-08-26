@@ -8,12 +8,12 @@ from vartastorage import vartastorage
 
 from homeassistant import config_entries, core
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.const import Platform, CONF_SCAN_INTERVAL
+from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
-from .const import DOMAIN, LOGGER, DEFAULT_SCAN_INTERVAL
+from .const import DOMAIN, LOGGER
 
 PLATFORMS: list[Platform] = [Platform.SENSOR]
 
